@@ -1,6 +1,20 @@
 .App {
   text-align: center;
 }
+.nav{
+  display: block;
+  flex-direction: row;
+  align-items: space-between;
+  background-color: #c1bcbc;
+}
+
+.nav-item{
+ margin: 20px;
+  flex: auto;
+  width: 20%;
+  font-size: medium;
+  color: rgb(142, 83, 197);
+}
 /* Card styles */
 .card {
     background-color: #ffffff;
